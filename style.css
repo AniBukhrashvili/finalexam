@@ -36,6 +36,7 @@ img {
 
 li {
   list-style: none;
+  cursor: pointer;
 }
 
 a {
@@ -65,4 +66,32 @@ button {
 .btn:hover {
   opacity: 0.9;
   transition: all 0.3s ease;
+}
+
+/* footer */
+
+footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background: #000000e0;
+  color: #fff;
+}
+
+.footer_container {
+  justify-content: space-between;
+  padding: 50px 0;
+}
+
+.footer_nav ul li {
+  text-transform: uppercase;
+}
+
+.footer_contact h4 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.footer_bottom {
+  padding-bottom: 50px;
 }
