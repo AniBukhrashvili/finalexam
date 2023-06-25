@@ -1,0 +1,14 @@
+#favourites-container {
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.favourite-message {
+  text-align: center;
+  align-items: center;
+  color: #803131dc;
+  font-size: 34px;
+  margin-top: 30px;
+  text-transform: uppercase;
+}
