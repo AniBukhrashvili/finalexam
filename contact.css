@@ -9,7 +9,6 @@ h1 {
 .contact_container {
   margin: 0 220px;
   justify-content: center;
-  /* border: 1px solid black; */
   border-radius: 8px;
   padding: 20px;
 }
@@ -34,7 +33,7 @@ textarea {
 
 input::placeholder,
 textarea::placeholder {
-  color: #000000;
+  color: #1c1b27;
 }
 
 .button__container {
