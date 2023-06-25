@@ -1,0 +1,33 @@
+#hotels-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-align: center;
+}
+
+#hotels-section h2 {
+  text-align: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #1c1b27;
+  margin-top: 20px;
+}
+
+.hotel_item {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.hotel_item h3 {
+  font-weight: 500;
+  color: #1c1b27;
+}
+
+.hotel_item p {
+  opacity: 0.5;
+}

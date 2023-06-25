@@ -41,6 +41,7 @@ li {
 }
 
 a {
+  cursor: pointer;
   text-decoration: none;
   font-size: 18px;
   color: #1c1b27;

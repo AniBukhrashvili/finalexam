@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="contact.css" />
     <link rel="stylesheet" href="style.css" />
-    <title>Contact</title>
+    <link rel="stylesheet" href="hotels.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Hotels</title>
 </head>
 
 <body>
@@ -23,7 +24,7 @@
                     <a href="hotels.html">Hotels</a>
                 </li>
                 <li>
-                    <a href="#favourites">Favourites</a>
+                    <a href="#Favourites">Favourites</a>
                 </li>
                 <li>
                     <a href="contact.html">Contact</a>
@@ -35,18 +36,13 @@
         </div>
     </header>
 
-    <section class="container contact">
-        <h1>Contact Us</h1>
-        <div class="flex contact_container">
-            <form class="flex">
-                <input type="text" placeholder="Email" />
-                <textarea cols="30" rows="10" placeholder="Message"></textarea>
-                <div class="button__container flex">
-                    <button class="btn btn-transparent">Submit</button>
-                </div>
-            </form>
-        </div>
+
+    <section id="hotels-section">
+        <h2>Hotels</h2>
+        <div id="hotels-container"></div>
     </section>
+
+
 
     <footer>
         <div class="container flex footer_container">
@@ -65,9 +61,9 @@
             <div class="footer_contact">
                 <h4>Get In Touch</h4>
                 <div class="flex g-30">
-                    <img src="./assets/facebook.png " alt="facebook " />
-                    <img src="./assets/twitter.png " alt="twitter " />
-                    <img src="./assets/linkedin.png " alt="linkedin " />
+                    <img src="./assets/facebook.png " alt="Facebook " />
+                    <img src="./assets/twitter.png " alt="Twitter " />
+                    <img src="./assets/linkedin.png " alt="Linkedin " />
                 </div>
             </div>
         </div>
@@ -77,6 +73,9 @@
         </div>
     </footer>
 </body>
+
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="./script.js"></script>
 
 
 </html>
