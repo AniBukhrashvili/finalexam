@@ -1,5 +1,5 @@
 # finalexam
-https://anibukhrashvili.github.io/finalexam/
+https://main--celebrated-faun-fe4b6a.netlify.app/
 
 ანა ბუხრაშვილი
 
